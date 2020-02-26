@@ -51,6 +51,7 @@ def parse_args():
     return args
 
 def main():
+    print("Parsing Args")
     args = parse_args()
 
     logger, final_output_dir, tb_log_dir = create_logger(
